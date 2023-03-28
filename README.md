@@ -2,10 +2,10 @@
 
 ## Stack
 
-nextjs
+nextjs  
 tailwindcss
 
 ## Tech I Used
 
-Framer Motion
+Framer Motion  
 https://react-svgr.com/playground/
