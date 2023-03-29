@@ -1,5 +1,6 @@
 import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
+import Skills from "@/components/Skills";
 import {
   motionValue,
   useInView,
@@ -16,7 +17,7 @@ const AnimatedNumbers = ({ value }) => {
 
   const motionValue = useMotionValue(0);
   const springValue = useSpring(motionValue, { duration: 3000 });
-  const isInView = useInView(ref);
+  const isInView = useInView(ref, { once: true });
 
   useEffect(() => {
     if (isInView) {
@@ -92,6 +93,8 @@ const about = () => {
               </div>
             </div>
           </div>
+
+          <Skills />
         </Layout>
       </main>
     </>
