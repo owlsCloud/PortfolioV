@@ -26,13 +26,13 @@ const Skills = () => {
           Web
         </motion.div>
         <Skill name="HTML" x="-25vw" y="2vw" />
-        <Skill name="CSS" x="-5vw" y="-10vw" />
-        <Skill name="Javascript" x="20vw" y="6vw" />
+        <Skill name="CSS" x="-5vw" y="-9vw" />
+        <Skill name="Javascript" x="18vw" y="6vw" />
         <Skill name="ReactJS" x="0vw" y="12vw" />
-        <Skill name="NodeJS" x="-20vw" y="-15vw" />
-        <Skill name="NextJS" x="32vw" y="-5vw" />
-        <Skill name="Tailwind CSS" x="0vw" y="20vw" />
-        <Skill name="Agile" x="-25vw" y="18vw" />
+        <Skill name="NodeJS" x="-20vw" y="-13vw" />
+        <Skill name="NextJS" x="30vw" y="-5vw" />
+        <Skill name="Tailwind CSS" x="-10vw" y="17vw" />
+        <Skill name="Agile" x="25vw" y="-19vw" />
         <Skill name="Git" x="18vw" y="18vw" />
       </div>
     </>

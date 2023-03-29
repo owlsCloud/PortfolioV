@@ -51,11 +51,11 @@ const about = () => {
                 About Me
               </h2>
               <p className="font-medium">
-                Hi I'm Gerardo, feel free to call me Javi. I'm a Texas based
-                software engineer specializing in front‑end development focused
-                on crafting clean & user‑friendly experiences, I am passionate
-                about building excellent software that improves the lives of
-                those around me.
+                Hi I&apos;m Gerardo, feel free to call me Javi. I&apos;m a Texas
+                based software engineer specializing in front‑end development
+                focused on crafting clean & user‑friendly experiences, I am
+                passionate about building excellent software that improves the
+                lives of those around me.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
