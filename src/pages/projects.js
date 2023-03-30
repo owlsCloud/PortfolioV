@@ -6,8 +6,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import project3Pic from "../../public/images/projects/hbomax.png";
-import project2Pic from "../../public/images/projects/portfolioV1.PNG";
-import project1Pic from "../../public/images/projects/portfolioV2.PNG";
+import project2Pic from "../../public/images/projects/portfolioV1.png";
+import project1Pic from "../../public/images/projects/portfolioV2.png";
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
     <article className="w-full flex items-center justify-between relative rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12">
