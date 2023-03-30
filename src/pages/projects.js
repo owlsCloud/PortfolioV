@@ -5,10 +5,13 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-
+import project3Pic from "../../public/images/projects/hbomax.png";
+import project2Pic from "../../public/images/projects/portfolioV1.PNG";
+import project1Pic from "../../public/images/projects/portfolioV2.PNG";
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
-    <article className="w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12">
+    <article className="w-full flex items-center justify-between relative rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12">
+      <div className="absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl" />
       <Link
         href={link}
         target="_blank"
@@ -46,6 +49,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
 const Project = ({ type, title, img, link, github }) => {
   return (
     <article className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative">
+      <div className="absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl" />
       <Link
         href={link}
         target="_blank"
@@ -95,32 +99,35 @@ const projects = () => {
             className="mb-16"
           />
 
-          <div className="grid grid-cols-12 gap-24">
+          <div className="grid grid-cols-12 gap-24 gap-y-32">
             <div className="col-span-12 ">
               <FeaturedProject
                 title="Portfolio v2"
                 link="gerardogrz.netlify.app"
                 github="https://github.com/owlsCloud/gerardogarza"
                 summary="My previous portfolio created using ReactJS and SCSS"
+                img={project1Pic}
+              />
+            </div>
+            <div className="col-span-6 ">
+              <Project
+                title="HBOmax Redux"
+                link="https://hbomax-clone.netlify.app/"
+                github="https://github.com/owlsCloud/hbomax-clone"
+                img={project3Pic}
               />
             </div>
             <div className="col-span-6 ">
               <Project
                 title="Portfolio v1"
-                link="gerardogrz.netlify.app"
-                github="https://github.com/owlsCloud/gerardogarza"
+                link="https://merry-mochi-1fa419.netlify.app/"
+                github="https://github.com/owlsCloud/portfolio"
+                img={project2Pic}
               />
             </div>
-            <div className="col-span-6 ">
-              <Project
-                title="Portfolio v2"
-                link="gerardogrz.netlify.app"
-                github="https://github.com/owlsCloud/gerardogarza"
-              />
-            </div>
-            <div className="col-span-12 ">Featured Project</div>
+            {/* <div className="col-span-12 ">Featured Project</div>
             <div className="col-span-6 ">Project</div>
-            <div className="col-span-6 ">Project</div>
+            <div className="col-span-6 ">Project</div> */}
           </div>
         </Layout>
       </main>
