@@ -2,5 +2,6 @@
 const nextConfig = {
   output: "export",
   reactStrictMode: true,
+  images: { disableStaticImages: false },
 };
-module.exports = { nextConfig };
+module.exports = nextConfig;

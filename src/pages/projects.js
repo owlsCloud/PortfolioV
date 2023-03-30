@@ -5,9 +5,9 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project3Pic from "../../public/images/projects/hbomax.png";
-import project2Pic from "../../public/images/projects/portfolioV1.png";
-import project1Pic from "../../public/images/projects/portfolioV2.png";
+import project3Pic from "../../public/images/projects/hbomax.jpg";
+import project2Pic from "../../public/images/projects/portfolioV1.jpg";
+import project1Pic from "../../public/images/projects/portfolioV2.jpg";
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
     <article className="w-full flex items-center justify-between relative rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12">
@@ -106,7 +106,7 @@ const projects = () => {
                 link="gerardogrz.netlify.app"
                 github="https://github.com/owlsCloud/gerardogarza"
                 summary="My previous portfolio created using ReactJS and SCSS"
-                // img={project1Pic}
+                img={project1Pic}
               />
             </div>
             <div className="col-span-6 ">
@@ -114,7 +114,7 @@ const projects = () => {
                 title="HBOmax Redux"
                 link="https://hbomax-clone.netlify.app/"
                 github="https://github.com/owlsCloud/hbomax-clone"
-                // img={project3Pic}
+                img={project3Pic}
               />
             </div>
             <div className="col-span-6 ">
@@ -122,7 +122,7 @@ const projects = () => {
                 title="Portfolio v1"
                 link="https://merry-mochi-1fa419.netlify.app/"
                 github="https://github.com/owlsCloud/portfolio"
-                // img={project2Pic}
+                img={project2Pic}
               />
             </div>
             {/* <div className="col-span-12 ">Featured Project</div>
