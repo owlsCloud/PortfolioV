@@ -4,7 +4,7 @@ import { CircularText } from "./Icons";
 
 const HireMe = () => {
   return (
-    <div className="fixed left-0 bottom-4 flex items-center justify-center overflow-hidden md:right-0 md:left-auto md:top-0 md:bottom-auto md:absolute ">
+    <div className="fixed left-0 bottom-4 flex items-center  justify-center overflow-hidden md:right-0 md:left-auto md:top-0 md:bottom-[89%]  md:absolute">
       <div className="w-50 h-auto flex items-center justify-center relative md:w-24 ">
         <CircularText
           className={"fill-dark animate-spin-slow dark:fill-light "}
