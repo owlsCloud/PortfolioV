@@ -135,9 +135,14 @@ const projects = () => {
                 img={project2Pic}
               />
             </div>
-            {/* <div className="col-span-12 ">Featured Project</div>
-            <div className="col-span-6 ">Project</div>
-            <div className="col-span-6 ">Project</div> */}
+            {/* <div className="col-span-6 sm:col-span-12">
+              <Project
+                title=""
+                link=""
+                github=""
+                img={}
+              />
+            </div> */}
           </div>
         </Layout>
       </main>
