@@ -5,6 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import project4Pic from "../../public/images/projects/emailPic.PNG";
 import project3Pic from "../../public/images/projects/hbomax.jpg";
 import project2Pic from "../../public/images/projects/portfolioV1.jpg";
 import project1Pic from "../../public/images/projects/portfolioV2.jpg";
@@ -79,7 +80,7 @@ const Project = ({ type, title, img, link, github }) => {
 
         <div className="w-full mt-2 flex items-center justify-between">
           <Link
-            href={github}
+            href={link}
             target="_blank"
             className=" text-lg font-semibold underline md:text-base"
           >
@@ -117,6 +118,16 @@ const projects = () => {
                 github="https://github.com/owlsCloud/gerardogarza"
                 summary="My previous portfolio created using ReactJS and SCSS"
                 img={project1Pic}
+                type="Portfolio"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Modern Email Template"
+                link="https://genuine-fox-b10aad.netlify.app/"
+                github="https://github.com/owlsCloud/Modern-Email-Template"
+                img={project4Pic}
+                type="Email"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -125,14 +136,17 @@ const projects = () => {
                 link="https://hbomax-clone.netlify.app/"
                 github="https://github.com/owlsCloud/hbomax-clone"
                 img={project3Pic}
+                type="Project"
               />
             </div>
+
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Portfolio v1"
                 link="https://merry-mochi-1fa419.netlify.app/"
                 github="https://github.com/owlsCloud/portfolio"
                 img={project2Pic}
+                type="Portfolio"
               />
             </div>
             {/* <div className="col-span-6 sm:col-span-12">
