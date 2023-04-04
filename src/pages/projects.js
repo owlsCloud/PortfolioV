@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project4Pic from "../../public/images/projects/emailPic.PNG";
+import project4Pic from "../../public/images/projects/emailPic.jpg";
 import project3Pic from "../../public/images/projects/hbomax.jpg";
 import project2Pic from "../../public/images/projects/portfolioV1.jpg";
 import project1Pic from "../../public/images/projects/portfolioV2.jpg";
