@@ -118,7 +118,7 @@ const NavBar = () => {
         </nav>
       </div>
 
-      {/* mobile nav */}
+      {/* mobile nav start  */}
 
       {isOpen ? (
         <motion.div
