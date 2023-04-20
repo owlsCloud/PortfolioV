@@ -9,6 +9,7 @@ import project4Pic from "../../public/images/projects/emailPic.jpg";
 import project3Pic from "../../public/images/projects/hbomax.jpg";
 import project2Pic from "../../public/images/projects/portfolioV1.jpg";
 import project1Pic from "../../public/images/projects/portfolioV2.jpg";
+import project5Pic from "../../public/images/projects/spotify.jpg";
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
     <article className="w-full flex items-center justify-between relative rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4">
@@ -113,10 +114,19 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12 ">
               <FeaturedProject
+                title="Spotify Clone"
+                link="https://spotifydashboard.netlify.app/"
+                github="https://github.com/owlsCloud/spotifyclone-frontend"
+                summary="A Fullstack project created with React, Express amd Spotify's API (backend link: https://github.com/owlsCloud/spotifyclone)"
+                img={project5Pic}
+                type="Fullstack"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
                 title="Portfolio v2"
                 link="gerardogrz.netlify.app"
                 github="https://github.com/owlsCloud/gerardogarza"
-                summary="My previous portfolio created using ReactJS and SCSS"
                 img={project1Pic}
                 type="Portfolio"
               />
@@ -136,7 +146,7 @@ const projects = () => {
                 link="https://hbomax-clone.netlify.app/"
                 github="https://github.com/owlsCloud/hbomax-clone"
                 img={project3Pic}
-                type="Project"
+                type="Frontend w/ API"
               />
             </div>
 
