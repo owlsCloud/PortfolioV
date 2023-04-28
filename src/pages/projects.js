@@ -125,7 +125,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Portfolio v2"
-                link="gerardogrz.netlify.app"
+                link="https://gerardogrz.netlify.app"
                 github="https://github.com/owlsCloud/gerardogarza"
                 img={project1Pic}
                 type="Portfolio"
