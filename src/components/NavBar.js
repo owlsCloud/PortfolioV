@@ -165,7 +165,7 @@ const NavBar = () => {
               className="w-6 ml-3 sm:mx-1"
             >
               <GithubIcon className="bg-light rounded-full dark:bg-dark sm:mx-1" />
-            </motion.a>{" "}
+            </motion.a>
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
               className={`ml-3 flex items-center justify-center rounded-full p-1 ${
