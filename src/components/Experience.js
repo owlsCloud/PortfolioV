@@ -54,16 +54,11 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
           <Details
-            position="CS Tutor"
-            company="UTRGV"
-            time="2021-2022"
+            position="Software Engineer"
+            company="UTRGV Indoor"
+            time="2018-2022"
             companyLink="https://www.utrgv.edu/"
-            work=" Taught computer science fundamentals to entering freshman and
-            sophmores one on one or in small groups. My responsibilities include
-            identifying and addressing areas where students may be struggling,
-            answering questions, providing examples and exercises to reinforce
-            key concepts, and helping students prepare for exams and
-            assignments."
+            work="Created and maintained a University organization's website and various apps to aid in the organziation's success such as a payment tracker and attendance taking app since the groups inception in 2018."
           />
           <Details
             position="IT Tech Lead"
