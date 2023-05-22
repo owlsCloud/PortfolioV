@@ -117,7 +117,7 @@ const projects = () => {
                 title="Spotify Clone"
                 link="https://spotifydashboard.netlify.app/"
                 github="https://github.com/owlsCloud/spotifyclone-frontend"
-                summary="A Fullstack project created with React, Express amd Spotify's API (backend link: https://github.com/owlsCloud/spotifyclone)"
+                summary="A Fullstack project created with React, Express and Spotify's API to give users a visual representation of their spotify data."
                 img={project5Pic}
                 type="Fullstack"
               />
