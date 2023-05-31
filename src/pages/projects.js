@@ -129,7 +129,7 @@ const projects = () => {
                 link="https://spotifydashboard.netlify.app/"
                 github="https://github.com/owlsCloud/spotifyclone-frontend"
                 img={project5Pic}
-                type="Portfolio"
+                type="Fullstack"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
