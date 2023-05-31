@@ -9,6 +9,7 @@ import project4Pic from "../../public/images/projects/emailPic.jpg";
 import project3Pic from "../../public/images/projects/hbomax.jpg";
 import project2Pic from "../../public/images/projects/portfolioV1.jpg";
 import project1Pic from "../../public/images/projects/portfolioV2.jpg";
+import project6pic from '../../public/images/projects/promptopia.jpg';
 import project5Pic from "../../public/images/projects/spotify.jpg";
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -114,12 +115,21 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12 ">
               <FeaturedProject
+                title="Promptopia"
+                link="https://promptopia-five-ruby.vercel.app/"
+                github="https://github.com/owlsCloud/Promptopia"
+                summary="A Fullstack project created with NextJS as both front end and backend as well as MongoDB to Implement CRUD operations."
+                img={project6Pic}
+                type="Fullstack"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
                 title="Spotify Clone"
                 link="https://spotifydashboard.netlify.app/"
                 github="https://github.com/owlsCloud/spotifyclone-frontend"
-                summary="A Fullstack project created with React, Express and Spotify's API to give users a visual representation of their spotify data."
                 img={project5Pic}
-                type="Fullstack"
+                type="Portfolio"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
