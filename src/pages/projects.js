@@ -9,7 +9,7 @@ import project4Pic from "../../public/images/projects/emailPic.jpg";
 import project3Pic from "../../public/images/projects/hbomax.jpg";
 import project2Pic from "../../public/images/projects/portfolioV1.jpg";
 import project1Pic from "../../public/images/projects/portfolioV2.jpg";
-import project6pic from '../../public/images/projects/promptopia.jpg';
+import project6Pic from "../../public/images/projects/promptopia.jpg";
 import project5Pic from "../../public/images/projects/spotify.jpg";
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
